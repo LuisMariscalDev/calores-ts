@@ -17,7 +17,7 @@ export default function ActivityList({activities} : ActivityListProps) {
                         {activity.category}
                     </p>
                     <p className="text-2xl font-bold pt-5">{activity.name}</p>
-                    <p className="font-black text-4xl text-lime-500">
+                    <p className="font-black text-4xl text-lime-400">
                         {activity.calories} {''}
                         <span>Calorias</span>
                     </p>
